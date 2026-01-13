@@ -14,7 +14,7 @@ bases:
 
 replicas:
   - name: guestbook-ui
-    count: 2
+    count: 4
 
 configMapGenerator:
   - name: guestbook-config
